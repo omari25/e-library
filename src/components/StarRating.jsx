@@ -20,7 +20,7 @@ const StarRating = ({ rating, size = "w-4 h-4", interactive = false, onRating })
         />
       ))}
       <span className="ml-2 text-sm text-gray-600">
-        {rating ? rating.toFixed(1) : 'No ratings'}
+        {rating ? rating.toFixed(1) : '0.0'}
       </span>
     </div>
   );
